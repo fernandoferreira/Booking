@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{C1F9AFA8-8FCD-4ED8-ADA3-3A1210CBD993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{75D265A5-1598-4AB2-93EA-287CED4B72C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{CE42FCC3-C504-46D6-925C-16F1ADF26194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{B38AE154-262E-47E7-96D9-71CCE14665AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{D14160E1-41F3-410C-99E5-04782370CC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.MinhaReserva.Domain", "FF.MinhaReserva.Domain\FF.MinhaReserva.Domain.csproj", "{6B4C9B65-9DD9-4F2D-87C7-791060442B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{197F90DF-7B17-4213-9478-81E064213228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{838119D0-F271-4FBC-A557-C223BC87E0F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.MinhaReserva.Infra.Data", "FF.MinhaReserva.Infra.Data\FF.MinhaReserva.Infra.Data.csproj", "{836C8DF5-6FAA-4B10-A6C9-9DEFADE1A662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.MinhaReserva.Application", "FF.MinhaReserva.Application\FF.MinhaReserva.Application.csproj", "{48A47BDA-9676-4723-869B-780409706861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.MinhaReserva.UI.Web", "FF.MinhaReserva.UI.Web\FF.MinhaReserva.UI.Web.csproj", "{55BC7A6C-7BDA-4D44-B1CD-8E07352E7588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.MinhaReserva.Infra.CrossCutting.AspNetFilters", "FF.MinhaReserva.Infra.CrossCutting.AspNetFilters\FF.MinhaReserva.Infra.CrossCutting.AspNetFilters.csproj", "{6AA523D8-F551-4BBD-9477-305D61522D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.MinhaReserva.Infra.CrossCutting.IoC", "FF.MinhaReserva.Infra.CrossCutting.IoC\FF.MinhaReserva.Infra.CrossCutting.IoC.csproj", "{8EAF85B1-5EC3-4652-AF9A-306EABA1520E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B4C9B65-9DD9-4F2D-87C7-791060442B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4C9B65-9DD9-4F2D-87C7-791060442B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4C9B65-9DD9-4F2D-87C7-791060442B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4C9B65-9DD9-4F2D-87C7-791060442B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836C8DF5-6FAA-4B10-A6C9-9DEFADE1A662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836C8DF5-6FAA-4B10-A6C9-9DEFADE1A662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836C8DF5-6FAA-4B10-A6C9-9DEFADE1A662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836C8DF5-6FAA-4B10-A6C9-9DEFADE1A662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A47BDA-9676-4723-869B-780409706861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A47BDA-9676-4723-869B-780409706861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A47BDA-9676-4723-869B-780409706861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A47BDA-9676-4723-869B-780409706861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BC7A6C-7BDA-4D44-B1CD-8E07352E7588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BC7A6C-7BDA-4D44-B1CD-8E07352E7588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BC7A6C-7BDA-4D44-B1CD-8E07352E7588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BC7A6C-7BDA-4D44-B1CD-8E07352E7588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA523D8-F551-4BBD-9477-305D61522D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA523D8-F551-4BBD-9477-305D61522D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA523D8-F551-4BBD-9477-305D61522D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA523D8-F551-4BBD-9477-305D61522D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAF85B1-5EC3-4652-AF9A-306EABA1520E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAF85B1-5EC3-4652-AF9A-306EABA1520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAF85B1-5EC3-4652-AF9A-306EABA1520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAF85B1-5EC3-4652-AF9A-306EABA1520E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B4C9B65-9DD9-4F2D-87C7-791060442B06} = {B38AE154-262E-47E7-96D9-71CCE14665AB}
+		{197F90DF-7B17-4213-9478-81E064213228} = {D14160E1-41F3-410C-99E5-04782370CC41}
+		{838119D0-F271-4FBC-A557-C223BC87E0F9} = {D14160E1-41F3-410C-99E5-04782370CC41}
+		{836C8DF5-6FAA-4B10-A6C9-9DEFADE1A662} = {197F90DF-7B17-4213-9478-81E064213228}
+		{48A47BDA-9676-4723-869B-780409706861} = {CE42FCC3-C504-46D6-925C-16F1ADF26194}
+		{55BC7A6C-7BDA-4D44-B1CD-8E07352E7588} = {C1F9AFA8-8FCD-4ED8-ADA3-3A1210CBD993}
+		{6AA523D8-F551-4BBD-9477-305D61522D2E} = {838119D0-F271-4FBC-A557-C223BC87E0F9}
+		{8EAF85B1-5EC3-4652-AF9A-306EABA1520E} = {838119D0-F271-4FBC-A557-C223BC87E0F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9346379-F727-4B72-8E22-59F778704716}
+	EndGlobalSection
+EndGlobal
